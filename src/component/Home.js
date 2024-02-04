@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-// import {AiOutlineDelete} from 'react-icons/ai';
-// import {BsCheckLg} from 'react-icons/bs';
+import {AiOutlineDelete} from 'react-icons/ai';
+import {BsCheckLg} from 'react-icons/bs';
 function Home(){
   const [allTodos, setAllTodos] = useState ([]);
   const [newTodoTitle, setNewTodoTitle] = useState ('');
@@ -128,8 +128,8 @@ function Home(){
 
                 </div>
                 <div>
-                  {/* <AiOutlineDelete title="Delete?"  className="icon"  onClick={() => handleToDoDelete (index)}/> */}
-                  {/* <BsCheckLg  title="Completed?" className=" check-icon" onClick={() => handleComplete (index)}/> */}
+                   <AiOutlineDelete title="Delete?"  className="icon"  onClick={() => handleToDoDelete (index)}/>
+                   <BsCheckLg  title="Completed?" className=" check-icon" onClick={() => handleComplete (index)}/>
                 </div>
               </div>
             ))}

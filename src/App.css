@@ -1,5 +1,5 @@
 body{
-  background-color: #1f1e1e;
+  background-color: #3c3d3b;
   color: white;
   overflow: hidden;
 }
@@ -10,7 +10,7 @@ h1{
 
 
 .todo-wrapper{
-  background-color: #353434;
+  background-color: #8d8888;
   padding: 2%;
   width: fit-content;
   margin-left: auto;
@@ -18,9 +18,7 @@ h1{
   margin-top: 3%;
   max-height: 80vh;
   overflow-y: auto;
-  box-shadow: 0px 5px 7px rgb(26, 25, 25);
- 
-  
+  box-shadow: 0px 5px 7px rgb(83, 81, 81);
 }
 
 .todo-input{
@@ -29,16 +27,14 @@ h1{
   justify-content: center;
   border-bottom: 1px solid rgb(77, 77, 77);
   padding-bottom: 25px;
-  margin-bottom: 25px;
-  
+  margin-bottom: 25px;  
 }
 
 .todo-input-item{
   margin-right: 25px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  
+  align-items: flex-start;  
 }
 
 .todo-input-item label{
@@ -53,14 +49,11 @@ h1{
 }
 
 .todo-input-item input:focus{
-  outline: 2px solid rgb(0, 230, 122);
+  outline: 2px solid rgb(135, 211, 49);
 }
 
-
-
-
 .primary-btn{
-  background-color: rgb(0, 230, 122);
+  background-color: rgb(135, 211, 49);
   color: white;
   border-radius: 0px;
   border: none;
@@ -71,7 +64,7 @@ h1{
 }
 
 .primary-btn:hover{
-  background-color: rgb(4, 192, 104);
+  background-color: rgb(116, 182, 42);
 }
 
 .btn-area{
@@ -80,7 +73,7 @@ h1{
 
 
 .secondaryBtn{
-  background-color: rgb(92, 92, 92);
+  background-color: #545552;
   color: white;
   border-radius: 0px;
   border: none;
@@ -90,7 +83,7 @@ h1{
 }
 
 .btn-area .active{
-  background-color: rgb(4, 192, 104);
+  background-color: rgb(135, 211, 49);
 }
 
 
@@ -104,17 +97,17 @@ h1{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #414040;
+  background-color: #545552;
   padding: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  box-shadow: 0px 2px 4px rgb(39, 38, 38);
+  box-shadow: 0px 2px 4px rgb(68, 66, 66);
 }
 
 .todo-list-item h3{
   font-size: 25px;
-  color: rgb(0, 230, 122);
+  color: rgb(135, 211, 49);
   font-weight: bold;
   margin: 0px;
 }
@@ -133,17 +126,16 @@ h1{
 
 .icon:hover{
   color: red;
-
 }
 
 .check-icon{
   font-size: 22px;
   cursor: pointer;
-  color: rgb(0, 230, 122);
+  color: rgb(135, 211, 49);
   margin-left: 10px;
   margin-bottom: 5px;
 }
 
 .check-icon:hover{
-  color: rgb(4, 192, 104);
+  color: rgb(116, 182, 42);
 }
